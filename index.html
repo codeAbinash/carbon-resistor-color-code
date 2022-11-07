@@ -20,23 +20,23 @@
         <div class="carbonResistor">
             <div class="left"></div>
             <div class="center">
-                <div class="color1"></div>
-                <div class="color2"></div>
-                <div class="color3"></div>
-                <div class="color4"></div>
+                <div class="color1 band"></div>
+                <div class="color2 band"></div>
+                <div class="color3 band"></div>
+                <div class="color4 band"></div>
             </div>
             <div class="right"></div>
         </div>
 
         <div class="resultDiv">
-            <p class="result">15.44 KΩ</p>
-            <p class="minmax">455 KΩ to 545 KΩ</p>
+            <p class="result" id="result"></p>
+            <p class="minmax" id="minMax"></p>
         </div>
 
         <div class="selection">
             <div class="bandSelect">
                 <p>First Band Color : </p>
-                <select name="" id="">
+                <select name="band1" id="band1">
                     <option value="0">0 Black</option>
                     <option value="1">1 Brown</option>
                     <option value="2">2 Red</option>
@@ -51,7 +51,7 @@
             </div>
             <div class="bandSelect">
                 <p>Second Band Color: </p>
-                <select name="" id="">
+                <select name="" id="band2">
                     <option value="0">0 Black</option>
                     <option value="1">1 Brown</option>
                     <option value="2">2 Red</option>
@@ -66,7 +66,7 @@
             </div>
             <div class="bandSelect">
                 <p>Third Band Color : </p>
-                <select name="" id="">
+                <select name="" id="band3">
                     <option value="0">0 Black</option>
                     <option value="1">1 Brown</option>
                     <option value="2">2 Red</option>
@@ -81,24 +81,24 @@
             </div>
             <div class="bandSelect">
                 <p>Tolerance  : </p>
-                <select name="" id="">
-                    <option value="0" class="blue">Blue ± 0. 25</option>
-                    <option value="1">Brown ± 1%</option>
-                    <option value="2">Red ± 2%</option>
-                    <option value="3">Orange ± 3%</option>
-                    <option value="4">Yellow ± 4%</option>
-                    <option value="5">Green ± 0.5%</option>
-                    <option value="6">Blue ± 0.25%</option>
-                    <option value="7">Violet ± 0.1%</option>
-                    <option value="8">Gray ± 0.05%</option>
-                    <option value="9">Gold ± 5%</option>
-                    <option value="10">Silver ± 10%</option>
-                    <option value="11">No band ± 20%</option>
+                <select name="" id="band4">
+                    <option value="Brown">Brown ± 1%</option>
+                    <option value="Blue">Blue ± 0.25</option>
+                    <option value="Red">Red ± 2%</option>
+                    <option value="Orange">Orange ± 3%</option>
+                    <option value="Yellow">Yellow ± 4%</option>
+                    <option value="Green">Green ± 0.5%</option>
+                    <option value="Blue">Blue ± 0.25%</option>
+                    <option value="Violet">Violet ± 0.1%</option>
+                    <option value="Gray">Gray ± 0.05%</option>
+                    <option value="Gold">Gold ± 5%</option>
+                    <option value="Silver">Silver ± 10%</option>
+                    <option value="unset">No band ± 20%</option>
                 </select>
             </div>
             <div class="bandSelect">
                 <p>Result Unit  : </p>
-                <select name="" id="">
+                <select name="" id="unit">
                     <option value="0" class="blue">Auto</option>
                     <option value="1" class="blue">Ω</option>
                     <option value="2" class="blue">KΩ</option>

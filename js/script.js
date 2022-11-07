@@ -1,5 +1,5 @@
 // import { } from './lib/fontawesome.js'
-
+import {} from "./main.js"
 
 
 // Register a Service Worker

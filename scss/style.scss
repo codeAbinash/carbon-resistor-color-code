@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px;
+    height: 130px;
     margin-inline: auto;
     width: min(320px, 90%);
 
@@ -39,7 +39,7 @@ body {
         background-color: red;
         height: inherit;
         background-color: $resistorColor;
-        border-radius: 12px;
+        border-radius: 16px;
     }
 
 
@@ -59,6 +59,11 @@ body {
             width: 11px;
             height: 100px;
             background-color: black;
+            transition: 0.2s linear all;
+        }
+
+        .color4 {
+            background-color: brown;
         }
     }
 }
