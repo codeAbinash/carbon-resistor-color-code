@@ -1,3 +1,3 @@
 # Carbon Molded Resistor
 
-## Open [Live Website](https://github.com/codeAbinsh/carbon-resistor-color-code)
+## Open [Live Website](https://codeabinash.github.io/carbon-resistor-color-code/)
